@@ -19,4 +19,4 @@ result_text = ""
 
 for char in char_list:
   result_text = result_text + random_alphabet[(random_alphabet.index(char) + key) % alphabet_size] 
-print("Szyfrogram: ",  result_text, "(spacje usunięte)")
+print("Szyfrogram: ",  result_text, "(spacje usunięte)") 
